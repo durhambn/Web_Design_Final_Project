@@ -1,0 +1,73 @@
+/* Color theme:
+dark teal - 204E5F
+medium teal - 79A7A8
+pink - FF8984
+light blue - B7D7D8
+light blue/white - EDF7F5
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+body{
+  background-color: #204E5F;
+  color: #204E5F;
+}
+#wrapper{
+  background-color: white;
+  width: 90%;
+  max-width: 1000px;
+  min-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Raleway', sans-serif;
+  border: 5px solid #EDF7F5;
+
+
+}
+#leftcol{
+  float: left;
+  width: 440px;
+  min-height: 500px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.1em;
+  line-height: 120%;
+}
+#rightcol{
+  float: right;
+  width: 440px;
+  min-height: 500px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.1em;
+  line-height: 120%;
+}
+header{
+  text-align: center;
+  height: 175px;
+  font-size: 25px;
+  padding: 10px;
+  color: #FF8984;
+  background-color: #B7D7D8;
+  border: 5px solid #EDF7F5;
+  font-family: 'Poppins', sans-serif;
+}
+#tag{
+  text-align: right;
+  padding: 5px;
+}
+footer{
+  background-color: #204E5F;
+  clear: both;
+  color: #FF8984;
+  text-align: center;
+  border: 5px solid #EDF7F5;
+
+}
+h2{
+  text-align: center;
+  font-size: 2em;
+}
+a{
+  color: #FF8984;
+}

@@ -1,0 +1,315 @@
+/* Color theme:
+dark teal - 204E5F
+medium teal - 79A7A8
+pink - FF8984
+darker pink - #ff7670
+light blue - B7D7D8
+light blue/white - EDF7F5
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+body{
+  background-color: #204E5F;
+  color: #204E5F;
+}
+#wrapper{
+  background-color: white;
+  max-width: 1400px;
+  font-family: 'Raleway', sans-serif;
+  border: 5px solid #EDF7F5;
+  padding: 10px;
+  height: auto;
+  margin: auto;
+}
+header{
+  text-align: center;
+  height: 200px;
+  font-size: 22px;
+  padding: 10px;
+  color: #ff7670;
+  background-color: #B7D7D8;
+  border: 5px solid #EDF7F5;
+  font-family: 'Poppins', sans-serif;
+}
+
+footer{
+  background-color: #EDF7F5;
+  clear: both;
+  color: #ff7670;
+  text-align: center;
+  font-size: small;
+  padding: 5px;
+}
+h1{
+  text-align: center;
+}
+
+a{
+  color: #ff7670;
+}
+
+nav {
+	background-color: #B7D7D8;
+	text-align: right;
+	padding-right: 5px;
+	position: relative;
+  float: right;
+  width: auto;
+  top: 20px;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0px;
+}
+nav li{
+	padding: 0.5em;
+	display: inline-block;
+}
+nav a{
+	text-decoration: none;
+	display: block;
+}
+nav a:link {
+	color: #ff7670;
+}
+
+nav a:hover{
+	color: white;
+}
+nav ul ul{
+	position: absolute;
+	top: 50px;
+	background-color: #B7D7D8F1;
+	padding: 0px;
+	text-align: left;
+	display: none;
+
+}
+nav ul ul li{
+	border-bottom: 1px solid #204E5F;
+	display: block;
+	width: 8em;
+	padding-left: 1em;
+	margin-left: 0px;
+}
+nav li:hover ul{
+	display: block;
+  z-index: 99;
+
+}
+nav ul ul li:hover{
+  background-color: white;
+}
+nav ul ul li a:hover{
+  color: #204E5F;
+
+}
+#col1{
+  float: left;
+  width: 48%;
+  min-height: 300px;
+  padding: 10px;
+  font-size: 1.1em;
+  line-height: 120%;
+  background-color: white;
+  text-align: center;
+}
+#col2{
+  float: left;
+  width: 48%;
+  min-height: 400px;
+  padding: 10px;
+  font-size: 1.1em;
+  line-height: 120%;
+  background-color: white;
+}
+.menu{
+  margin: 0px;
+  width: 170px;
+  height: auto;
+  float: left;
+  background-color: white;
+}
+.menu ul{
+  margin: 0px;
+  list-style-type: none;
+  padding: 0px 10px 0px 10px;
+  margin-top: 30px;
+}
+.menu li{
+  width: 120%;
+  margin: 5px 3px;
+  padding: 5px;
+
+}
+.menu a{
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+  color: #204E5F;
+}
+.menu a:hover{
+  color: #ff7670;
+}
+
+.main, #locations{
+  margin-left: 200px;
+  margin-top: 10px;
+  padding: 10px;
+  border-left: 1px solid #204E5F;
+}
+table{
+  padding: 5px;
+  width: 100%;
+}
+table th, td{
+  padding: 5px;
+  border-bottom: 1px solid gray;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+#locations ul {
+  list-style-type: none;
+}
+#locations li {
+  display: inline-block;
+     width: 400px;
+     padding-bottom: 10px;
+     margin: 20px;
+     background-color: #EAEAEA;
+     text-align: center;
+     color: #204E5F;
+}
+
+#locations{
+  margin-left: 170px;
+  padding: 10px;
+}
+#hero{
+  width: 100%;
+  height:300px;
+  background-image: url("images/hero2-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+}
+#pic, #pic2{
+  width: 400px;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 3px;
+  float: right;
+  border: 3px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  color: white;
+  clear: right;
+}
+figure{
+  margin: 0;
+}
+figcaption{
+  width: auto;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+@media only screen and (max-width: 800px) {
+  #pic{
+    display: none;
+  }
+  #wrapper{
+    font-size: .7em;
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    margin: 0px;
+  }
+  footer{
+    font-size: .7em;
+  }
+  header{
+    padding: 0px;
+    margin: 0px;
+    font-size: .8em;
+    height: 120px;
+  }
+  nav{
+    font-size: .7em;
+    margin: 0px;
+    float: left;
+    height: auto;
+    width: auto;
+    text-align: left;
+    padding: 0px;
+  }
+  nav ul{
+    width: auto;
+    padding: 0px;
+
+  }
+  nav ul li{
+    padding: 2px;
+
+  }
+  nav ul ul{
+    top: 15px;
+  }
+  #col1{
+    min-height: 50px;
+    width: 95%;
+    padding: 10px;
+  }
+  #col2{
+    min-height: 50px;
+    width: 95%;
+    padding: 10px;
+  }
+  #hero{
+    display: none;
+  }
+  .main, #locations, #upstate{
+    margin-left: 0px;
+    border: none;
+    padding: 0px;
+
+  }
+  .menu{
+    float: none;
+    width: auto;
+    position: relative;
+  }
+  .menu li{
+    width: auto;
+    display: inline-block;
+  }
+
+  .menu a:hover{
+    color: #ff7670;
+  }
+
+
+  #locations ul {
+    list-style-type: none;
+    padding: 0px;
+  }
+  #locations li {
+    display: inline-block;
+       width: 200px;
+       background-color: #EAEAEA;
+       text-align: center;
+       color: #204E5F;
+       padding: 0px;
+  }
+  #locations iframe{
+    display: none;
+  }
+}
